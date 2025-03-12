@@ -1,0 +1,60 @@
+		a {
+			text-decoration: none
+		}
+	a:link, a:visited { color: darkgreen; }
+	a:focus, a:hover, a:active { color: green; }
+		
+		body {
+			margin:0;
+			font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+			
+		}
+		
+		
+		
+	/*float and positioning*/
+		.header {
+			color: white;
+			background-color: green;
+			text-align: center;
+			padding: 10px 0 10px 0;
+			
+		}
+		
+		.float {
+			float: left;
+			width: 20%;
+			padding: 10px;
+			margin: 10px;
+		}
+		
+		.nav {
+			float: left;
+			width: 10%;
+			height: 60%;
+			background-color: lightgray;
+			padding-bottom: 60%
+			
+		}
+		
+		a{
+			padding: 10px 0 10px 10px;
+			margin:0 0 5px 0;
+			font-weight:bold
+		}
+		
+		.img {
+			float:left;
+			margin: 10px 0 0 0
+			
+		}
+		
+		footer {position:absolute;
+			left: 0%;
+			bottom: 0%;
+			width:100%;
+			text-align: center;
+			padding-bottom: 7px;
+			background-color: black;
+			color:white;
+		}
